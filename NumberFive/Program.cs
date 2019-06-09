@@ -10,6 +10,7 @@ namespace NumberFive
     {
         static void Main(string[] args)
         {
+
             Random ran = new Random();
             Console.WriteLine("Сгенерированная матрица:");
             int[,] testMatrix = MatrixGenerator(10, 2, 2, ran);
